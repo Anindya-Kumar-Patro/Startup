@@ -4,16 +4,21 @@
 
 .filter-section{
     height:89vh;
-    width:320px;
-    background-color: aquamarine;
-    padding:10px;
+    width:400px;
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    border-right: 1.6px solid rgb(221, 220, 220);
+    margin-left:10px;
+
 }
 
 .navbar-section{
     
     width:100%;
-    background-color:rgb(235, 214, 214);
-    height:10vh;
+    background-color:rgb(255, 255, 255);
+    height:13.86vh;
+    border-bottom: 1.6px solid rgb(221, 220, 220);
+    padding-top:10px;
    
 }
 
@@ -53,17 +58,41 @@ select{
 }
 
 .spacehere{
-    width:35%;
+    width:30%;
 }
 
 .btnstyl{
-    padding:5px 13px;
+    padding:7px 14px;
+    color:rgb(37, 35, 163);
     border: 1.6px solid rgb(37, 35, 163);
     border-radius:20px;
     background-color:rgba(255, 255, 255, 0);
     margin:2px;
+    font-size: 12px;
+}
+
+.btnstyl:hover{
+    background-color:rgb(37, 35, 163);
+    color:white;
 }
 
 .facing-buttons{
     display:flex;
+}
+
+.heading-blue{
+    color:rgb(37, 35, 163);
+    font-size: 19px;
+    font-weight: 1000;
+    margin-top:18px;
+    margin-bottom:10px;
+}
+
+.text-RERA{
+    display:flex;
+}
+
+.switchhere{
+    margin-top:25px;
+    margin-left: 25px;
 }

@@ -8,31 +8,31 @@ const NavFilter = () => {
             <div className="filter-section">
                 <div>
                     <div className="slidecontainer">
-                        <h4>Bedrooms</h4>
+                        <h4 className="heading-blue">Bedrooms</h4>
                         <input type="range" min="1" max="6" className="slider" id="myRange" />
                     </div>
                     <div className="slidecontainer">
-                        <h4>Bathrooms</h4>
+                        <h4 className="heading-blue">Bathrooms</h4>
                         <input type="range" min="1" max="6" className="slider" id="myRange" />
                     </div>
                     <div className="facing">
-                        <h4>Facing</h4>
+                        <h4 className="heading-blue">Facing</h4>
                         <div className="facing-buttons">
                             
                             <button className="btnstyl">North</button>
                             <button className="btnstyl">South</button>
-                            
+                            <button className="btnstyl">East</button>
                             <button className="btnstyl">West</button>
                         </div>
                         <div className="facing-buttons">
-                            <button className="btnstyl">East</button>
+                            
                             <button className="btnstyl">North East</button>
                             <button className="btnstyl">South East</button>
-                           
+                            <button className="btnstyl">North West</button>
                         </div>
                         <div className="facing-buttons">
                             
-                            <button className="btnstyl">North West</button>
+                            
                             <button className="btnstyl">South West</button>
                            
                         </div>
@@ -40,25 +40,35 @@ const NavFilter = () => {
 
 
                     <div className="facing">
-                        <h4>Amenities</h4>
+                        <h4 className="heading-blue">Amenities</h4>
                         <div className="facing-buttons">
                             
                             <button className="btnstyl">Parking</button>
                             <button className="btnstyl">Pool</button>
-                            <button className="btnstyl">Park</button>
                             <button className="btnstyl">Lift</button>
+                            <button className="btnstyl">Security</button>
                         </div>
                         <div className="facing-buttons">
-                            <button className="btnstyl">Security</button>
+                            <button className="btnstyl">Park</button>
+                            <button className="btnstyl">Club-House</button>
                             <button className="btnstyl">Temple</button>
                             <button className="btnstyl">Gym</button>
                            
                         </div>
                         <div className="facing-buttons">
                             
-                            <button className="btnstyl">Club-House</button>
+                            
                             <button className="btnstyl">View 10+</button>
                            
+                        </div>
+                    </div>
+                    <div className="text-RERA">
+                        <h4 className="heading-blue">RERA Compliance</h4>
+                        <div className="toggleButton">
+                        <label className="switch">
+                            <input className="switchhere" type="checkbox"/>
+                            <span className="slider round"></span>
+                        </label>
                         </div>
                     </div>
                 </div>
