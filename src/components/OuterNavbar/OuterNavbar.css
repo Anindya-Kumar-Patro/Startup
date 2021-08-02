@@ -1,0 +1,109 @@
+.onehalf {
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondhalf {
+  /* background-color: rgb(135, 222, 181); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* width: 50%; */
+}
+
+.search1 img {
+  height: 20px;
+}
+
+.search2 {
+  background-color: rgb(34, 243, 146);
+  height: 45px;
+  width: 8vw;
+  border-radius: 0px 5px 5px 0px;
+  border: 2px solid rgb(34, 243, 146);
+  color: white;
+  font-size: 18px;
+}
+
+.star i {
+  font-size: 20px;
+  margin-left: 55px;
+}
+
+.iconn {
+  color: white;
+}
+
+.heading1 h1 {
+  left: 20px;
+  color: white;
+}
+
+.searchinp {
+  height: 100%;
+  width: 85%;
+  border-radius: 5px 0px 0px 5px;
+  text-decoration: none !important;
+  border: 2px solid white;
+}
+
+.searchinp:focus {
+  outline: none !important;
+}
+.outerNav {
+  width: 100vw;
+  height: 14vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: rgb(36, 59, 233);
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+.dropdown button {
+  width: 9vw;
+  height: 45px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  font-size: 18px;
+}
+
+.loginsec button {
+  width: 9vw;
+  height: 45px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  font-size: 18px;
+  /* background-color: white; */
+}
+
+.loginsec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.searchbtn {
+  width: 40vw;
+  height: 45px;
+  /* background-color: red; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+
+  /* position: relative; */
+}
+
+.lstbtn {
+  background-color: rgb(51, 130, 248) !important;
+}

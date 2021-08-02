@@ -1,11 +1,11 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar'
+import OuterNavbar from './components/OuterNavbar/OuterNavbar'
 import NavFilter from './components/NavFilter/NavFilter';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <OuterNavbar />
       <NavFilter/>
     </div>
   );
